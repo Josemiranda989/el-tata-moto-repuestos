@@ -1,0 +1,12 @@
+:root {
+    --yellow-primary: #FFC600;
+    --yellow-secondary: #FFD747;
+    --grey: #F2EFE8;
+    --white: #FFFFFF;
+    --black: #0A0A0A;
+
+}
+
+body {
+    color: var(--yellow-secondary);
+}
