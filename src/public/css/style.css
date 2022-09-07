@@ -1,0 +1,29 @@
+:root {
+    --yellow-primary: #FFC600;
+    --yellow-secondary: #FFD747;
+    --dark-grey: #84817b;
+    --grey: #F2EFE8;
+    --white: #FFFFFF;
+    --black: #0A0A0A;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav img {
+    width: 200px;
+}
+
+.btn-primary{
+    background-color: var(--yellow-primary);
+    border:var(--bs-btn-border-width) solid #dee4ec
+}
+
+.btn-primary:hover{
+    background-color: var(--dark-grey);
+    border:var(--bs-btn-border-width) solid #dee4ec
+}
